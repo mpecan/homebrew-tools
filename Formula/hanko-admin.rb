@@ -7,11 +7,11 @@ class HankoAdmin < Formula
   on_macos do
     on_arm do
       url "https://github.com/mpecan/hanko-admin-ui/releases/download/v0.1.0/hanko-admin-v0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "d0a57d7adaf9d448a5641d8bb49794e31a096885ae5ca49b818e6d201154aecb"
+      sha256 "ff2e84cafd0966cc40fb2429a8d410c6ee529644d552fedec2cd12a87a303185"
     end
     on_intel do
       url "https://github.com/mpecan/hanko-admin-ui/releases/download/v0.1.0/hanko-admin-v0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "5fddd79959b8883bf6269119d2ba3b76949952930f4f036e486f15ab5581d3be"
+      sha256 "72ca0cf7d1fef1500b56fd864bb1e209b39e4571e41f9630496a8f68d24bb5e1"
     end
   end
 
