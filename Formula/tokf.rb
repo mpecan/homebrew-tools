@@ -1,24 +1,24 @@
 class Tokf < Formula
   desc "Config-driven CLI that compresses command output before it reaches an LLM context"
   homepage "https://tokf.net"
-  version "0.2.50"
+  version "0.2.51"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/mpecan/tokf/releases/download/tokf-v0.2.50/tokf-v0.2.50-aarch64-apple-darwin.tar.gz"
-      sha256 "085afae41f123eb5929b1478a8dd2fc9d51fa3401ebd368b69e3755440ce295b"
+      url "https://github.com/mpecan/tokf/releases/download/tokf-v0.2.51/tokf-v0.2.51-aarch64-apple-darwin.tar.gz"
+      sha256 "f7543900235ce6848fd5feb91aa3fef6ca1366c3d9870f61d05efcc4e9dfaa22"
     end
     on_intel do
-      url "https://github.com/mpecan/tokf/releases/download/tokf-v0.2.50/tokf-v0.2.50-x86_64-apple-darwin.tar.gz"
-      sha256 "c9d86664a92a73d8a89b1a703e488732974699bb3dbb6718eab48513c67795a8"
+      url "https://github.com/mpecan/tokf/releases/download/tokf-v0.2.51/tokf-v0.2.51-x86_64-apple-darwin.tar.gz"
+      sha256 "a07a024763901a4d7b762b82e8dc6c9e9518c356da0437be8cd516913c92aa68"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/mpecan/tokf/releases/download/tokf-v0.2.50/tokf-v0.2.50-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "4ade19a8e184add4cfea54e0fb52e378fd07204ee0068900d8ac8b06a7fc8bb3"
+      url "https://github.com/mpecan/tokf/releases/download/tokf-v0.2.51/tokf-v0.2.51-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "23d606d98d99166ecf4064b0b9ddf1b7c55729fd78f2a776f8d028a1887b409e"
     end
   end
 
