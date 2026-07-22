@@ -7,7 +7,7 @@ cask "rusted-claude-meter" do
   version "0.1.2"
   sha256 "ac99d19d6f8d312b0bfef8a2e24439d84fc0bbe73adfe3d66849dcd33de272dd"
 
-  url "https://github.com/mpecan/rusted-claude-meter/releases/download/v0.1.2/Rusted%20Claude%20Meter_0.1.2_aarch64.dmg"
+  url "https://github.com/mpecan/rusted-claude-meter/releases/download/v0.1.2/Rusted.Claude.Meter_0.1.2_aarch64.dmg"
   name "Rusted Claude Meter"
   desc "Claude plan usage meter in your menu bar"
   homepage "https://github.com/mpecan/rusted-claude-meter"
