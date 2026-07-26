@@ -1,24 +1,24 @@
 class Rippy < Formula
   desc "Shell command safety hook for AI coding tools (Claude Code, Cursor, Gemini CLI)"
   homepage "https://github.com/mpecan/rippy"
-  version "0.2.0"
+  version "0.2.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/mpecan/rippy/releases/download/rippy-cli-v0.2.0/rippy-v0.2.0-aarch64-apple-darwin.tar.gz"
-      sha256 "548c7dbeaf73538de0c046b129d9190d224d804eaeec1f796ed193b424d71699"
+      url "https://github.com/mpecan/rippy/releases/download/rippy-cli-v0.2.1/rippy-v0.2.1-aarch64-apple-darwin.tar.gz"
+      sha256 "9231a442b61c28654fe11839cba9adeae7b6af7bedf9bdd2926be732f2049ef0"
     end
     on_intel do
-      url "https://github.com/mpecan/rippy/releases/download/rippy-cli-v0.2.0/rippy-v0.2.0-x86_64-apple-darwin.tar.gz"
-      sha256 "e995b34e07f4edcaf18feb7b4158e30426aed6a3420dbd0c20554cdf4d0b284b"
+      url "https://github.com/mpecan/rippy/releases/download/rippy-cli-v0.2.1/rippy-v0.2.1-x86_64-apple-darwin.tar.gz"
+      sha256 "b985811df69f2c6edce0b591ebb6e4d013c5ec585442aa888ad2e2a71b4e0301"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/mpecan/rippy/releases/download/rippy-cli-v0.2.0/rippy-v0.2.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "188574892e042d1c9b19cd6bbca13e15b1126c8d516580b9adf47f3eff47654f"
+      url "https://github.com/mpecan/rippy/releases/download/rippy-cli-v0.2.1/rippy-v0.2.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "2406b772442041d3180e79c0c031359cd3d664f4fb6d1e484b1565fa9896dce8"
     end
   end
 
