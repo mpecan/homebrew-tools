@@ -3,10 +3,10 @@
 # cookie-store access; manual session-key paste only). Published to the
 # mpecan/homebrew-tools tap. See docs/packaging.md for build variants.
 cask "rusted-claude-meter-lite" do
-  version "0.1.3"
-  sha256 "2465a92d9098ade4ee7944da7ce08f1e2efda684732d839c12e9e0e5e41a0764"
+  version "0.1.4"
+  sha256 "26332da7d08cc94ba847a04dfe2af966f8ca87fdc0791ba188a95f9d15ef8aed"
 
-  url "https://github.com/mpecan/rusted-claude-meter/releases/download/v0.1.3/Rusted.Claude.Meter.Lite_0.1.3_aarch64.dmg"
+  url "https://github.com/mpecan/rusted-claude-meter/releases/download/v0.1.4/Rusted.Claude.Meter.Lite_0.1.4_aarch64.dmg"
   name "Rusted Claude Meter Lite"
   desc "Claude plan usage meter in your menu bar (no browser import)"
   homepage "https://github.com/mpecan/rusted-claude-meter"
