@@ -14,12 +14,14 @@ Then install any of the packages below. You can also skip the tap step and insta
 
 | Formula | Description |
 |---------|-------------|
+| **[allium-inspect](https://github.com/mpecan/allium-inspect)** | Explore an Allium specification in a browser, and walk journeys against it (`allium-inspect`, `allium-journey`) |
 | **[rippy](https://github.com/mpecan/rippy)** | Shell command safety hook for AI coding tools (Claude Code, Cursor, Gemini CLI) |
 | **[tokf](https://github.com/mpecan/tokf)** | Config-driven CLI that compresses command output before it reaches an LLM context |
 | **[share-the-mark](https://github.com/mpecan/share-the-mark)** | Receive design-feedback change-briefs from the share-the-mark browser extension |
 | **[hanko-admin](https://github.com/mpecan/hanko-admin-ui)** | Desktop console for administering a Hanko installation |
 
 ```bash
+brew install allium-inspect
 brew install rippy
 brew install tokf
 brew install share-the-mark
