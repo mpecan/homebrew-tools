@@ -4,10 +4,10 @@
 #
 # See docs/packaging.md for how to add the rendered cask to a tap.
 cask "rusted-claude-meter" do
-  version "0.1.10"
-  sha256 "583d30967099170ece2cc1c1a766813577323c0ded46c645c2b4559a790792ad"
+  version "0.1.11"
+  sha256 "72e43b73b3a434163c41aaf017cc7bee79f1b5be53cfab7139f5bec85f716083"
 
-  url "https://github.com/mpecan/rusted-claude-meter/releases/download/v0.1.10/Rusted.Claude.Meter_0.1.10_aarch64.dmg"
+  url "https://github.com/mpecan/rusted-claude-meter/releases/download/v0.1.11/Rusted.Claude.Meter_0.1.11_aarch64.dmg"
   name "Rusted Claude Meter"
   desc "Claude plan usage meter in your menu bar"
   homepage "https://github.com/mpecan/rusted-claude-meter"
