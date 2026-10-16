@@ -1,28 +1,28 @@
 class AlliumInspect < Formula
   desc "Explore an Allium specification in a browser, and walk journeys against it"
   homepage "https://github.com/mpecan/allium-inspect"
-  version "0.1.2"
+  version "0.1.3"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/mpecan/allium-inspect/releases/download/allium-inspect-v0.1.2/allium-inspect-v0.1.2-aarch64-apple-darwin.tar.gz"
-      sha256 "4081dbf574bb9564a29acaaf1c0c64cb54b12e2de76e079942d3627bc8a71e8b"
+      url "https://github.com/mpecan/allium-inspect/releases/download/allium-inspect-v0.1.3/allium-inspect-v0.1.3-aarch64-apple-darwin.tar.gz"
+      sha256 "b1a87e347ef99c648be53cf9be8e01995a38c1fab6976c49af2758f458a9d4b9"
     end
     on_intel do
-      url "https://github.com/mpecan/allium-inspect/releases/download/allium-inspect-v0.1.2/allium-inspect-v0.1.2-x86_64-apple-darwin.tar.gz"
-      sha256 "c5f83cfc3e9b5d93d2e5fd608041bee818a78cf426be10c438bb938f33e08ecf"
+      url "https://github.com/mpecan/allium-inspect/releases/download/allium-inspect-v0.1.3/allium-inspect-v0.1.3-x86_64-apple-darwin.tar.gz"
+      sha256 "6162d26164f1ae66382dc897f489cb84a57b4cfa500612f0735ae6e09a30eaac"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/mpecan/allium-inspect/releases/download/allium-inspect-v0.1.2/allium-inspect-v0.1.2-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "028c8631372c5a2efa1da14ab002bea48cc040fc025084de3a5213bdde49c423"
+      url "https://github.com/mpecan/allium-inspect/releases/download/allium-inspect-v0.1.3/allium-inspect-v0.1.3-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "f8e9eed303ea58e77f54c6f501878187c40bcfeebaf337a10bee7bf67802cbfe"
     end
     on_intel do
-      url "https://github.com/mpecan/allium-inspect/releases/download/allium-inspect-v0.1.2/allium-inspect-v0.1.2-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "bab17db8cc0a1565d286d4274e079ce3fae238958aa6617e5605cb373f3fd59f"
+      url "https://github.com/mpecan/allium-inspect/releases/download/allium-inspect-v0.1.3/allium-inspect-v0.1.3-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "881a0d418d0f7e579ba5a25f005304edf027919887513c2d37a3bc07ed2dfd8c"
     end
   end
 
